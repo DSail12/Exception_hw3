@@ -19,3 +19,12 @@
 // Не забудьте закрыть соединение с файлом.
 // При возникновении проблемы с чтением-записью в файл, исключение должно быть корректно обработано, 
 // пользователь должен увидеть стектрейс ошибки.
+
+package tasks;
+
+public class Main {
+    public static void main(String[] args) {
+        DisplayView<View> myprog = new DisplayView<>(new DataView());
+        myprog.start();
+    }
+}
